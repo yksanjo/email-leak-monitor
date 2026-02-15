@@ -1,0 +1,20 @@
+{
+  "name": "email-leak-monitor",
+  "version": "1.0.0",
+  "description": "Monitors email addresses and username leaks from data breaches",
+  "main": "src/index.js",
+  "bin": {
+    "email-leak-monitor": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["security", "monitoring", "credentials", "email", "breach"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.1.0"
+  }
+}
