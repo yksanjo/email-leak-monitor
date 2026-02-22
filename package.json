@@ -8,9 +8,15 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "test": "node --test tests/*.test.cjs"
   },
-  "keywords": ["security", "monitoring", "credentials", "email", "breach"],
+  "keywords": [
+    "security",
+    "monitoring",
+    "credentials",
+    "email",
+    "breach"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
